@@ -4,8 +4,13 @@ var app = express();
 var http = require("http");
 var server = http.Server(app);
 
+// process.env.PORT = 3000;
 app.use(express.static('public'));
-server.listen(3000, function(){console.log("server is running");});
+server.listen( process.env.PORT, process.env.IP, function(){
+    console.log("server is running");
+    console.log(process.env.PORT);
+    console.log(process.env.IP);
+});
 
 /**
  * socket-io
