@@ -1,6 +1,6 @@
 var socket;
 window.onload = function(){
-	socket = io();
+	socket = io("/chat");
 	$("form").submit(function(){
 		//get text
 		var input = $("#m");
