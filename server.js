@@ -75,7 +75,7 @@ passport.deserializeUser(function(obj, done) {
 passport.use(new GitHubStrategy({
         clientID: GITHUB_CLIENT_ID,
         clientSecret: GITHUB_CLIENT_SECRET,
-        callbackURL: "http://127.0.0.1:3000/auth/github/callback"
+        callbackURL: "https://simple-chat-hoanganh25991.c9users.io/auth/github/callback"
     },
     function(accessToken, refreshToken, profile, done) {
         // asynchronous verification, for effect...
@@ -125,7 +125,8 @@ app.get('/auth/github',
     function(req, res){
         // The request will be redirected to GitHub for authentication, so this
         // function will not be called.
-    });
+    }
+);
 // GET /auth/github/callback
 //   Use passport.authenticate() as route middleware to authenticate the
 //   request.  If authentication fails, the user will be redirected back to the

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="838dd5c7-293c-48e8-8bd5-10eae269e5b0" name="Default" comment="" />
+    <list default="true" id="838dd5c7-293c-48e8-8bd5-10eae269e5b0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+    </list>
     <ignored path="8-app-chat-v2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="account.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/account.ejs">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21013133">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.4918033">
+              <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -46,6 +49,8 @@
       <command text="git commit -m &quot;auth with github&quot;" />
       <command text="git status" />
       <command text="git push" />
+      <command text="npm install -g ejs" />
+      <command text="npm start" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -64,8 +69,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/public/client.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -84,9 +89,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
-    <option name="width" value="768" />
-    <option name="height" value="900" />
+    <option name="x" value="55" />
+    <option name="y" value="-8" />
+    <option name="width" value="1553" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -325,28 +331,28 @@
       <created>1456890584864</created>
       <option name="number" value="Default" />
       <updated>1456890584864</updated>
-      <workItem from="1456890586840" duration="1650000" />
+      <workItem from="1456890586840" duration="2871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1650000" />
+    <option name="totallyTimeSpent" value="2871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="0" width="768" height="900" extended-state="0" />
-    <editor active="false" />
+    <frame x="55" y="-8" width="1553" height="916" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30718085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30718085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -394,42 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4822064">
-          <caret line="111" column="36" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
-          <folding>
-            <marker date="1456891748737" expanded="true" signature="266:375" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="379:399" placeholder="/** socket-io ...*/" />
-            <marker date="1456891748737" expanded="true" signature="494:519" placeholder="/** handle request ...*/" />
-            <marker date="1456891748737" expanded="true" signature="555:603" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="607:627" placeholder="/** handle io ...*/" />
-            <marker date="1456891748737" expanded="true" signature="716:1080" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="808:875" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="926:1076" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="1504:1944" placeholder="//..." />
-            <marker date="1456891748737" expanded="true" signature="2026:2051" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="2099:2123" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="2158:2311" placeholder="{&quot;callbackURL&quot;: &quot;http://127.0.0.1:3000/auth/github/callback&quot;...}" />
-            <marker date="1456891748737" expanded="true" signature="2368:2819" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="2459:2811" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="2474:2761" placeholder="//..." />
-            <marker date="1456891748737" expanded="true" signature="3132:3251" placeholder="//..." />
-            <marker date="1456891748737" expanded="true" signature="3412:3460" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="3522:3572" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="3611:3659" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="3663:3971" placeholder="//..." />
-            <marker date="1456891748737" expanded="true" signature="4084:4211" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="4094:4205" placeholder="//..." />
-            <marker date="1456891748737" expanded="true" signature="4214:4537" placeholder="//..." />
-            <marker date="1456891748737" expanded="true" signature="4662:4700" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="4741:4785" placeholder="{...}" />
-            <marker date="1456891748737" expanded="true" signature="4788:5099" placeholder="//..." />
-            <marker date="1456891748737" expanded="true" signature="5145:5225" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7354597">
@@ -470,8 +440,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/account.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21013133">
+        <state vertical-scroll-proportion="0.13844252">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4918033">
+          <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
           <folding />
         </state>
       </provider>
