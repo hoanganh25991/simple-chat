@@ -4,7 +4,8 @@ var app = express();
 var http = require("http");
 var server = http.Server(app);
 
-// process.env.PORT = 3000;
+process.env.PORT = 3000;
+// process.env.IP = 127.0.0.1;
 app.use(express.static('public'));
 server.listen( process.env.PORT, process.env.IP, function(){
     console.log("server is running");
